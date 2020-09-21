@@ -8,11 +8,7 @@ LATEST_OD_READ_ENDPOINT = "/usage/latestodrread"
 METER_ENDPOINT = "/meter"
 OD_READ_ENDPOINT = "/ondemandread"
 
-USER_AGENT_TEMPLATE = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/85.0.{BUILD}.{REV} Safari/537.36"
-)
+USER_AGENT_TEMPLATE = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15"
 CLIENT_HEADERS = {
     "Content-Type": "application/json",
     "Accept": "application/json",
